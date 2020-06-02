@@ -250,10 +250,9 @@ static void Main(string[] args)
         }
         static void Main(string[] args)
         {
-            List <Student> list = new List <Student>();
-            list.Add(new Student { Id = 1, Fio = "Подомарчук Александр Демидович", Data_Rozhdeniya = "04.02.2000", Group = "  ИСиП 19-11-2" });
-            list.Add(new Student { Id = 2, Fio = "Семако Мария Сергеевна", Data_Rozhdeniya = "15.07.2001", Group = "  ИСиП 19-11-2" });
-
+            List<Student> list = new List<Student>();
+            list.Add(new Student { Id = 1, Fio = "Лахтина Екатерина Станиславовна", Data_Rozhdeniya = "28.02.2002", Group = "  ИСиП 19-11-2" });
+            list.Add(new Student { Id = 2, Fio = "Мясникова Альбина Сергеевна", Data_Rozhdeniya = "21.11.2001", Group = "  КП 19-11-2" });
             foreach (Student s in list)
             {
                 Console.Write(s.Id + "" + s.Fio + "" + s.Data_Rozhdeniya + "" + s.Group + "; \n ");
